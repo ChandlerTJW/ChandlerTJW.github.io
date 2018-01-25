@@ -382,7 +382,7 @@
       
         
           
-            <h5 id="前奏："><a href="#前奏：" class="headerlink" title="前奏："></a>前奏：</h5><p>双腿微蹲</p>
+            <script src="/assets/js/APlayer.min.js"> </script><h5 id="前奏："><a href="#前奏：" class="headerlink" title="前奏："></a>前奏：</h5><p>双腿微蹲</p>
 <h5 id="第一部分"><a href="#第一部分" class="headerlink" title="第一部分"></a>第一部分</h5><ol>
 <li>内八向前走向后走（前4后4）</li>
 <li>斜踢腿（踢腿/放下/踢腿/放下, 左右各一次）  </li>
@@ -534,7 +534,22 @@
       
         
           
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+            <script src="/assets/js/APlayer.min.js"> </script><div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
+		<script>
+			new APlayer({
+				element: document.getElementById("aplayer0"),
+				narrow: false,
+				autoplay: true,
+				showlrc: 0,
+				music: {
+					title: "长安不问",
+					author: "吾恩",
+					url: "http://p344buxp1.bkt.clouddn.com/music/%E5%90%BE%E6%81%A9%20-%20%E9%95%BF%E5%AE%89%E4%B8%8D%E9%97%AE%28%E7%BA%AF%E6%AD%8C%E7%89%88%29.mp3",
+					pic: "http://p344buxp1.bkt.clouddn.com/image/jpeg%E4%B8%8B%E8%BD%BD.jpeg",
+				}
+			});
+		</script>
+<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
